@@ -1,4 +1,4 @@
-package vn.com.sqlite.database;
+package vn.com.sqlite.model;
 
 
 public class wallet {

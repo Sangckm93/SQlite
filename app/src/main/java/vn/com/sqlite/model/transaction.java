@@ -1,4 +1,4 @@
-package vn.com.sqlite.database;
+package vn.com.sqlite.model;
 
 
 public class transaction {
@@ -24,6 +24,9 @@ public class transaction {
     private int isDeploy;       // INTEGER,
     private int isCall;         // INTEGER,
     private String functionCall;    // TEXT
+
+    public transaction() {
+    }
 
     public transaction(int id, String hash, String address, String toAddress, String pubKey, int amount, int pendingUse, int balance, int fee, int tip, String message, int time, int status, String type, String prevHash, String sign, String receive_info, int isDeploy, int isCall, String functionCall) {
         this.id = id;
